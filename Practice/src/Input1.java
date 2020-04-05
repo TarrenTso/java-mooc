@@ -8,8 +8,8 @@ public class Input1 {
 		Scanner reader = new Scanner(System.in);
 
         // Identifying the input values and declaring the variables for them
-        int first = 1;
-        int second = 2;
+        int first = 6;
+        int second = 8;
         
 
         // Assigning the user input to the variables
