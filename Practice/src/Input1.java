@@ -9,7 +9,7 @@ public class Input1 {
 
         // Identifying the input values and declaring the variables for them
         int first = 6;
-        int second = 8;
+        int second = 5;
         
 
         // Assigning the user input to the variables
