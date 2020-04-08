@@ -25,6 +25,8 @@ public class Input1 {
 
         // Printing the result of the operation
         System.out.println("The product of " + first + " and " + second + " is " + product);
+        
+        reader.close();
 
 	}
 
