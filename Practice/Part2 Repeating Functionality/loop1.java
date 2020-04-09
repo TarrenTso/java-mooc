@@ -11,6 +11,8 @@ public class loop1 {
 			
 			System.out.println("Exit? y= exit");
 			
+			// String input = String.valueOf(reader.nextLine())
+			//difference
 			String input = reader.nextLine();
 			
 			if(input.contentEquals("y")) {
@@ -20,6 +22,7 @@ public class loop1 {
 			System.out.println("Carry on!");
 		}
 		System.out.println("Ready!");
+		reader.close();
 	}
 
 }
