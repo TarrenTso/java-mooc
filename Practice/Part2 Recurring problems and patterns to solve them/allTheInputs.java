@@ -14,5 +14,6 @@ public class allTheInputs {
 		
 		boolean trueOrFalse = Boolean.valueOf(reader.nextLine());
 	}
+	
 
 }
