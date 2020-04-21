@@ -6,18 +6,23 @@ public class loop1 {
 
 		Scanner reader = new Scanner(System.in);
 		
+		String input = reader.nextLine();
+
+		
 		// what's the 'true' condition for?
-		while(true) {
+		while(!input.contentEquals("y")) {
 			
 			System.out.println("Exit? y= exit");
 			
 			// String input = String.valueOf(reader.nextLine())
 			//difference
-			String input = reader.nextLine();
 			
-			if(input.contentEquals("y")) {
-				break;
-			}
+			
+			 input = reader.nextLine();
+			
+//			if(input.contentEquals("y")) {
+//				break;
+//			}
 			
 			System.out.println("Carry on!");
 		}
